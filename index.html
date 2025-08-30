@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Fadel</title>
+    <link rel="stylesheet" href="style/style.css">
+    <style>
+  /* Style khusus untuk bagian tambahan saja */
+  #quote, #skill, #cta {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 700px;
+    animation: fadeInUp 0.8s ease;
+  }
+
+  #quote h2, #skill h2 {
+    margin-top: 0;
+    color: #ffffff;
+  }
+
+  blockquote {
+    font-style: italic;
+    color: #ddd;
+    border-left: 5px solid #e74c3c;
+    padding-left: 15px;
+    margin: 0;
+  }
+
+  #skill ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+  }
+
+  #skill li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #ccc;
+  }
+
+  /* #cta {
+    text-align: center;
+  } */
+
+  #cta a {
+    display: inline-block;
+    background: #e74c3c;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+
+  #cta a:hover {
+    background: #c0392b;
+  }
+
+  /* Animasi */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+</head>
+<body>
+    <div class="fullscreen">
+        <header>
+            <h1>Taufiq</h1>
+            <div class="page">
+                <a href="#home">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Project</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </header>
+
+        <main>
+            <section id="perkenalan">
+                <h2><span class="red">Hallo i'am</span> Beginner Developer</h2>
+                <p class="bio">Hallo saya seorang Pemula dalam dunia proggraming, yang sedang belajar dan mencoba coba hal baru untuk menentukan skill dari pengalaman yang sudah saya coba sebelumnya.</p>
+            </section>
+            <!-- Tambahan: Quote -->
+        <section id="quote">
+            <h2>📌 My Motivation</h2>
+            <blockquote style="font-style: italic; color: hsl(0, 0%, 96%); padding: 15px; border-left: 5px solid #e74c3c; margin: 20px;">
+            "Belajar bukan tentang siapa yang paling cepat, tapi siapa yang tidak berhenti mencoba."
+            </blockquote>
+        </section>
+
+        <!-- Tambahan: Skill Sederhana -->
+        <section id="skill">
+            <h2>🛠️ My Skill</h2>
+            <ul style="list-style: none; padding: 0;">
+            <li>✔️ HTML & CSS</li>
+            <li>✔️ JavaScript</li>
+            <li>✔️ Python</li>
+            <li>✔️ Steamlit, Socket, tkinter (liblary)</li>
+            </ul>
+        </section>
+        </main>
+
+        <footer>
+            <p>&copy; Fadel 2025 X 4</p>
+        </footer>
+    </div>
+</body>
+</html>
